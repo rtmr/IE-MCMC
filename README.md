@@ -1,5 +1,5 @@
 # IE-MCMC
-Importance extruction based on Markov Chain Monte Carlo methods (IE-MCMC)
+Importance extraction based on Markov Chain Monte Carlo methods (IE-MCMC)
 
 # Requirements
 Python >= 3.7
@@ -27,8 +27,8 @@ Download or clone the github repository, e.g. git clone https://github.com/rtmr/
 
 ## Target dataset
 
-Target dataset is set to the features with label information.
-(Target.csv contains the temper designations and composition elements dependence of proof stress in the 5000 series aluminum alloys.)
+Target dataset is set to the features with label information (last row).
+(Target.csv contains the proof stress depending on temper designations and composition elements in the 5000 series aluminum alloys.)
 
 ## Execution
 ```
