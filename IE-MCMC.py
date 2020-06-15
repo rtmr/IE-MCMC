@@ -9,8 +9,8 @@ import numpy as np
 import emcee
 import random
 import warnings
-warnings.filterwarnings('ignore')
 
+warnings.simplefilter('ignore')
 
 ########################
 ###### parameters ######
@@ -264,7 +264,7 @@ B=np.delete(B, drop_list, 0)
 for i in range(len(A[0])):
 
     fig = plt.figure()
-    plt.hist([A[:,i],B[:,i]], stacked=False, bins=20, color=['red','blue'], alpha=0.6, normed=True)
+    plt.hist([A[:,i],B[:,i]], stacked=False, bins=20, color=['red','blue'], alpha=0.6, density=True)
     filename = "histogram_%d.pdf" % i
     plt.savefig(filename)
 
